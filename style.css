@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Croissant One', cursive ;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./teee.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+#temp_calc{
+    background-color: rgb(156, 183, 221);
+    width:80%;
+    margin-left: 100px;
+    padding:20px;
+    border-radius: 10%;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+#temp_calc label{
+    font-size: 30px;
+}
+#temp{
+    border:none;
+    padding:10px;
+    height:25px;
+    width:100px;
+    margin-top: 2px;
+    font-size: 12px;
+    vertical-align: top;
+}
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border:2px solid white;
+    background-color: black;
+    color:aliceblue;
+}
+#result{
+    font-size: 30px;
+}
+
+@media (max-width:768px) {
+   #temp_calc{
+    background-color: rgb(156, 183, 221);
+    width:80%;
+    margin-left: 10%;
+    padding:20px;
+    border-radius: 10%;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+}
